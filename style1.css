@@ -1,0 +1,100 @@
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #0abab5;
+}
+
+.nav_inner {
+    width: 50%;
+    height: 45px;
+    margin: 0px auto;
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 70px;
+
+
+}
+
+.nav_inner a:link, .nav_inner a:visited {
+    text-decoration: none;
+    color:rgb(47, 46, 46);
+    margin-top: 10px;
+    padding: 5px;
+    display: inline-block;
+    border-radius: 15px;
+}
+
+.not_a1 a{
+    display: flex;
+    padding: 0px;
+    display: block;
+    justify-content: center;
+    
+}
+
+.nav_inner .a1 a:hover {
+    transition: all .8s;
+    background-color: grey;
+    color:white;
+}
+
+
+
+
+.main {
+    height: 1000px;
+    width: 50%;
+    margin: 0px auto;
+    background-color: aliceblue;
+    border-radius: 25px;
+}
+
+
+
+
+.up {
+    position: fixed;
+    bottom: 50px;
+    right:100px;
+}
+
+.up a:link, .up a:visited {
+    padding:10px 20px ;
+    text-decoration: none;
+    color:rgb(39, 38, 38);
+    border-radius: 25px;
+
+}
+
+.up a:hover {
+    transition: all .5s;
+    background-color: grey;
+    color:white;
+}
+
+.main_inner {
+    width: 90%;
+    margin: 0px auto;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+.footer {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+details details{
+    margin-left: 25px;
+}
