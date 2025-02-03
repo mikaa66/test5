@@ -13,10 +13,12 @@ html{
 
 body {
     max-width: 800px;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-size: 20px;
     font-weight: bold;
-    background-color: #0abab5;
+    /* background-color: #45bc77; */
+    /* background-color: #0abab5; */
+    background-color: #F4A900;
     margin: 0px auto;
 }
 

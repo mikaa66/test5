@@ -13,11 +13,12 @@ html{
 
 body {
     max-width: 800px;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-size: 20px;
     font-weight: bold;
     /* background-color: #45bc77; */
-    background-color: #0abab5;
+    /* background-color: #0abab5; */
+    background-color: #F4A900;
     margin: 0px auto;
 }
 
@@ -243,9 +244,17 @@ details details{
     color: black;
 }
 
-summary a:hover{
+summary  a:hover{
     transition: all .6s;
-    color: #1E90FF;
+    color: #0abab5;
+}
+
+summary  a.orange:hover{
+    color: #F4A900;
+}
+
+summary  a.greeng:hover{
+    color: #45bc77;
 }
 
 .ist a:link, .ist a:visited{
